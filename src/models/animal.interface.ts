@@ -1,9 +1,9 @@
 import { Health } from './health.interface';
 
-export interface Animal {
+export interface IAnimal {
   name: string;
   age: number;
   breed: string;
-  picture: string;
-  health: Health;
+  picture: Buffer;
+  // health: Health;
 }
